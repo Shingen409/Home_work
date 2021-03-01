@@ -1,8 +1,8 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
-const int ROWS = 8; /*ROWS-строка*/
-const int COLS = 7; /*COLS-столбец*/
+const int ROWS = 8; /*ROWS-СЃС‚СЂРѕРєР°*/
+const int COLS = 7; /*COLS-СЃС‚РѕР»Р±РµС†*/
 
 void Filrand(int arr[], const int n);
 void Filrand(double arr[], const int n);
@@ -42,10 +42,10 @@ void main()
 	Print(i_arr, n);
 	Sort(i_arr, n);
 	Print(i_arr, n);
-	cout << "Сумма элементов массива (" << Sum(i_arr, n) << ")" << endl;
-	cout << "Средне арефметическое массива (" << Avg(i_arr, n) << ")" << endl;
-	cout << "Минимальное значение (" << minValue(i_arr, n) << ")" << endl;
-	cout << "Максимальное значение (" << maxValue(i_arr, n) << ")" << endl;
+	cout << "РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° (" << Sum(i_arr, n) << ")" << endl;
+	cout << "РЎСЂРµРґРЅРµ Р°СЂРµС„РјРµС‚РёС‡РµСЃРєРѕРµ РјР°СЃСЃРёРІР° (" << Avg(i_arr, n) << ")" << endl;
+	cout << "РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ (" << minValue(i_arr, n) << ")" << endl;
+	cout << "РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ (" << maxValue(i_arr, n) << ")" << endl;
 	cout << delimiter << endl;
 
 
@@ -54,17 +54,17 @@ void main()
 	Print(d_arr, n);
 	Sort(d_arr, n);
 	Print(d_arr, n);
-	cout << "Сумма элементов двумерного массива (" << Sum(d_arr, n) << ")" << endl;
-	cout << "Средне арефметическое двумерного массива (" << Avg(d_arr, n) << ")" << endl;
-	cout << "Минимальное значение (" << minValue(d_arr, n) << ")" << endl;
-	cout << "Максимальное значение (" << maxValue(d_arr, n) << ")" << endl;
+	cout << "РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РґРІСѓРјРµСЂРЅРѕРіРѕ РјР°СЃСЃРёРІР° (" << Sum(d_arr, n) << ")" << endl;
+	cout << "РЎСЂРµРґРЅРµ Р°СЂРµС„РјРµС‚РёС‡РµСЃРєРѕРµ РґРІСѓРјРµСЂРЅРѕРіРѕ РјР°СЃСЃРёРІР° (" << Avg(d_arr, n) << ")" << endl;
+	cout << "РњРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ (" << minValue(d_arr, n) << ")" << endl;
+	cout << "РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ (" << maxValue(d_arr, n) << ")" << endl;
 	cout << delimiter << endl;
 
 
 	int i_arr2[ROWS][COLS];
 	Filrand(i_arr2, ROWS, COLS);
 	Print(i_arr2, ROWS, COLS);
-	cout << "Отсортированный массив" << endl;
+	cout << "РћС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ" << endl;
 	Sort(i_arr2, ROWS, COLS);
 	Print(i_arr2, ROWS, COLS);
 
